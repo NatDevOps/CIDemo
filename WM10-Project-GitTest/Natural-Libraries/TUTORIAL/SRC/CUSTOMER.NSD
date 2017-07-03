@@ -1,0 +1,22 @@
+DB: 014 FILE: 010  - CUSTOMER                         DEFAULT SEQUENCE:   
+TYPE: ADABAS
+ 
+T L DB Name                              F Leng  S D Remark
+- - -- --------------------------------  - ----  - - ------------------------
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+  1 LN LASTNAME                          A   20  N D 
+M 1 FN FIRSTNAME                         A   20  N   
+  1 ID IDENT                             B    4  N   
+  1 AG AGE                               N  3.0      
+P 1 AD ADDRESS                                       
+  2 CI CITY                              A   20  N   
+  2 ST STREET                            A   20  N   
+P 1 FA FIRMA                                         
+  2 NR FNR                               A   20  N   
+M 2 FR FFR                               A   20  N   
+******DDM OUTPUT TERMINATED******

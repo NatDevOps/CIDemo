@@ -1,0 +1,25 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* :LineIncrement 10
+* <Natural Source Header
+DEFINE DATA LOCAL
+LOCAL USING PDACUST1
+END-DEFINE
+*
+INPUT LASTNAME (AD=M) FIRSTNAME(1) FIRSTNAME(2) (AD=M) /
+        IDENT (AD=M) AGE (AD=M) ADDRESS (AD=M)
+*
+WRITE 'Daten werden geschrieben'
+WRITE FIRSTNAME(1) LASTNAME
+*
+/*( extracted to
+CALLNAT 'ADDCUSTN' CUSTOMER-OBJ
+/*) extracted to
+
+*
+END OF TRANSACTION
+*
+WRITE 'Daten geschrieben'
+*
+END

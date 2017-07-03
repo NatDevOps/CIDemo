@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEMPLATE date="2017-06-01" environment="" name="TestRep1"
+    time="23:57:52" type="DataBrowser" user="" version="1.0">
+    <DEFINITIONS>
+        <DESCRIPTION>Report for DDM CUSTOMER</DESCRIPTION>
+        <RECORDLIMIT>100</RECORDLIMIT>
+        <FILTEREDBY>&gt;&gt; Physical Read &lt;&lt;</FILTEREDBY>
+        <OPTIONS>
+            <USEEDITMASK>None</USEEDITMASK>
+            <USEFIELDHEADER>None</USEFIELDHEADER>
+        </OPTIONS>
+    </DEFINITIONS>
+    <DDM dbid="014" fnr="010" name="CUSTOMER" type="ada">
+        <FIELD Checked="X" Descriptor="D" Editmask="" Format="A"
+            Header="" Length="20" Level="1" Name="LASTNAME" Type=""/>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="A"
+            Header="" Length="20" Level="1" Name="FIRSTNAME" Type="M">
+            <OCC index="1">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="B"
+            Header="" Length="4" Level="1" Name="IDENT" Type=""/>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="N"
+            Header="" Length="3.0" Level="1" Name="AGE" Type=""/>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="" Header=""
+            Length="" Level="1" Name="ADDRESS" Type="P">
+            <OCC index="1">
+                <BEGIN>0</BEGIN>
+                <END>0</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="A"
+            Header="" Length="20" Level="2" Name="CITY" Type="">
+            <OCC index="1">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="A"
+            Header="" Length="20" Level="2" Name="STREET" Type="">
+            <OCC index="1">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="" Header=""
+            Length="" Level="1" Name="FIRMA" Type="P">
+            <OCC index="1">
+                <BEGIN>0</BEGIN>
+                <END>0</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="A"
+            Header="" Length="20" Level="2" Name="FNR" Type="">
+            <OCC index="1">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+        </FIELD>
+        <FIELD Checked="X" Descriptor="" Editmask="" Format="A"
+            Header="" Length="20" Level="2" Name="FFR" Type="M">
+            <OCC index="1">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+            <OCC index="2">
+                <BEGIN>1</BEGIN>
+                <END>1</END>
+            </OCC>
+        </FIELD>
+    </DDM>
+    <GENERALFIELDS>
+        <FIELD Checked="X" Editmask="" Format="I" Header="" Length="4"
+            Level="1" Name=".COUNTER" Type="#"/>
+        <FIELD Checked="X" Editmask="" Format="P" Header="" Length="10"
+            Level="1" Name="*ISN" Type="#"/>
+    </GENERALFIELDS>
+</TEMPLATE>

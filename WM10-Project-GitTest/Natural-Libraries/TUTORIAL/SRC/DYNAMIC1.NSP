@@ -1,0 +1,28 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP ISO_8859-1:1987
+* :LineIncrement 10
+* <Natural Source Header
+Define data local
+1 harbor  (a) dynamic
+1 start-harbor (a250) init full length <'myphonos'>
+1 dest-harbor  (a250) init full length <'santiki'>
+end-define
+
+resize dynamic harbor to 1000
+write *length(harbor)
+
+compress start-harbor dest-harbor into harbor leaving no space
+write *length(harbor)
+
+compress start-harbor dest-harbor harbor into harbor with 't'
+write *length(harbor)
+
+reduce dynamic harbor to 1000
+write *length(harbor)
+
+compress start-harbor into harbor
+write *length(harbor)
+ 
+write 'ich bin der held vom erdbeerfeld' 
+end

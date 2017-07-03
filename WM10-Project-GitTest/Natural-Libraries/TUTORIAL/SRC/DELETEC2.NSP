@@ -1,0 +1,43 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP ISO_8859-1:1987
+* :LineIncrement 10
+* <Natural Source Header
+DEFINE DATA LOCAL
+LOCAL USING CUSTV1
+LOCAL 
+1 DELISN (I4)
+1 DELISNEND (I4)
+1 COUNTER (I4)
+1 DO-DEL (A3)
+END-DEFINE
+
+INPUT 'isn to delete from' DELISN ' to ' DELISNEND
+
+* find customer-view with lastname = delname
+READ CUSTOMER-VIEW BY ISN STARTING FROM DELISN ENDING AT DELISNEND
+
+  DELETE                                                                   
+
+ADD 1 TO COUNTER
+
+*  AT END OF DATA *                                                       
+*    WRITE NOTITLE *NUMBER 'RECORDS DELETED'                             
+*  END-ENDDATA                                                           
+END-READ
+*
+IF COUNTER = 0 THEN
+    WRITE ' ES wurde nix gefunden'
+ELSE
+    INPUT COUNTER (AD=O) ' Datensätze löschen ? '  DO-DEL
+    
+    IF DO-DEL = 'Y' THEN
+      WRITE COUNTER ' datensätze wurden gelöscht'
+      END OF TRANSACTION
+    ELSE
+      WRITE 'Es wurde nichts gemacht 2'
+      BACKOUT TRANSACTION
+    END-IF
+END-IF
+
+END

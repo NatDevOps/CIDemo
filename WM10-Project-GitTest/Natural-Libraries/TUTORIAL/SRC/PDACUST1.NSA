@@ -1,0 +1,19 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area PDACUST1.
+/**
+/** :author ziv
+/* TODO Enter your data definitions here
+/*( imported data fields from Local Data Area CUSTV1
+1 CUSTOMER-OBJ
+  2 LASTNAME (A20)
+  2 FIRSTNAME (A20/1:10)
+  2 IDENT (B4)
+  2 AGE (N3)
+  2 ADDRESS (A20)
+/*) imported data fields from Local Data Area CUSTV1
+
+END-DEFINE
