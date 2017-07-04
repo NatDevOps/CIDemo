@@ -51,14 +51,14 @@
     <property name="natural.ant.project.password.encryption" value="YES" />
     <property name="natural.ant.deploy.exclude.list" value="YES" />
     <property name="natural.ant.deploy.scope" value="3" />
-    <property name="natural.ant.repository.username" value="" />
+    <property name="natural.ant.repository.username" value="NATCI" />
     <property name="natural.ant.deploy.timestamp.check" value="NO" />
     <property name="natural.ant.deploy.retain.unchanged.sources" value="NO" />
     <property name="natural.ant.deploy.full" value="NO" />
     <property name="natural.ant.generate.old.data.area.format" value="NO" />
     <property name="natural.ant.library.steplib.nsv" value="" />
     <property name="natural.ant.source.all.types" value="YES" />
-    <property name="natural.ant.repository.url" value="C:/Users/ziv/git/WM10-Project-GitTest/.git" />
+    <property name="natural.ant.repository.url" value="https://github.com/NatDevOps/CIDemo.git" />
     <property name="natural.ant.repository.version" value="master" />
     <property name="natural.ant.source.type.selection" value="2736127" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
@@ -68,7 +68,7 @@
     <property name="natural.ant.project.name" value="WM10-Project-GitTest" />
     <property name="natural.ant.server.secured.environment" value="NO" />
     <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NewCITest" />
-    <property name="natural.ant.deploy.stow" value="YES" />
+    <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.deploy.file.name" value="natbuild.xml" />
     <property name="natural.ant.deploy.delete" value="NO" />
@@ -78,7 +78,7 @@
     <property name="natural.ant.project.steplibs" value="1;SYSEXDDM;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
     <property name="natural.ant.repository.module" value="WM10-Project-GitTest" />
-    <property name="natural.ant.deploy.catalog" value="NO" />
+    <property name="natural.ant.deploy.catalog" value="YES" />
     <property name="natural.ant.library.steplibs" value="" />
     <property name="natural.ant.server.environment" value="127.0.0.1-2700" />
     <property name="natural.ant.server.password" value="" />
