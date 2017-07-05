@@ -46,7 +46,7 @@
     <!-- Property logic: DO NOT EDIT NOR REMOVE -->
     <!-- ### ANT_DEPLOY_PROPERTIES_START ### -->
     <property environment="env"/>
-    <property name="natural.ant.server.parameters" value="webio=on parm=NDVTEST" />
+    <property name="natural.ant.server.parameters" value="webio=on parm=NDVPROD" />
     <property name="natural.ant.repository.password" value="" />
     <property name="natural.ant.project.password.encryption" value="YES" />
     <property name="natural.ant.deploy.exclude.list" value="YES" />
@@ -59,7 +59,7 @@
     <property name="natural.ant.library.steplib.nsv" value="" />
     <property name="natural.ant.source.all.types" value="YES" />
     <property name="natural.ant.repository.url" value="https://github.com/NatDevOps/CIDemo.git" />
-    <property name="natural.ant.repository.version" value="feature1" />
+    <property name="natural.ant.repository.version" value="master" />
     <property name="natural.ant.source.type.selection" value="2736127" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.ant.deploy.upload" value="YES" />
@@ -67,11 +67,11 @@
     <property name="natural.ant.server.port" value="2700" />
     <property name="natural.ant.project.name" value="WM10-Project-GitTest" />
     <property name="natural.ant.server.secured.environment" value="NO" />
-    <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NatCITest" />
+    <property name="natural.ant.project.rootdir" value="/var/lib/jenkins/workspace/NatCIProd" />
     <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.mapping.enable" value="NO" />
-    <property name="natural.ant.project.deploy.file.name" value="natbuild-test.xml" />
-    <property name="natural.ant.deploy.delete" value="NO" />
+    <property name="natural.ant.project.deploy.file.name" value="natbuild-prod.xml" />
+    <property name="natural.ant.deploy.delete" value="YES" />
     <property name="natural.ant.server.hostname" value="127.0.0.1" />
     <property name="natural.ant.mapping.string" value="TUTORIAL=TUTORIAL;" />
     <property name="natural.ant.failonerror" value="NO" />
@@ -82,7 +82,7 @@
     <property name="natural.ant.library.steplibs" value="" />
     <property name="natural.ant.server.environment" value="127.0.0.1-2700" />
     <property name="natural.ant.server.password" value="" />
-    <property name="natural.ant.server.username" value="NATCITST" />
+    <property name="natural.ant.server.username" value="NATCIPRD" />
     <property name="natural.ant.project.steplib.nsv" value="SYSTEM" />
     <!-- ### ANT_DEPLOY_PROPERTIES_END ###   -->
   </target>

@@ -59,7 +59,7 @@
     <property name="natural.ant.library.steplib.nsv" value="" />
     <property name="natural.ant.source.all.types" value="YES" />
     <property name="natural.ant.repository.url" value="https://github.com/NatDevOps/CIDemo.git" />
-    <property name="natural.ant.repository.version" value="master" />
+    <property name="natural.ant.repository.version" value="feature1" />
     <property name="natural.ant.source.type.selection" value="2736127" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
     <property name="natural.ant.deploy.upload" value="YES" />
