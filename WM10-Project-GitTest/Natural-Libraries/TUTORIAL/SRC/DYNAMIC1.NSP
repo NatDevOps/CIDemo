@@ -23,6 +23,6 @@ WRITE *LENGTH(HARBOR)
 
 COMPRESS START-HARBOR INTO HARBOR
 WRITE *LENGTH(HARBOR)
- 
-WRITE 'Hier wurde was angezeigt vom CI 2' 
+
+WRITE 'Hier wurde was angezeigt vom CI' 
 END
