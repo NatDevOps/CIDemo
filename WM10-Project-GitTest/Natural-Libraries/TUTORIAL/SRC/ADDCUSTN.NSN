@@ -1,8 +1,7 @@
 * >Natural Source Header 000000
-* :Mode R
+* :Mode S
 * :CP
 * <Natural Source Header
-
 DEFINE DATA PARAMETER
 USING PDACUST1
 LOCAL
@@ -18,4 +17,3 @@ STORE RECORD IN FILE CUSTOMER-V2
 *
 *
 END
- 
