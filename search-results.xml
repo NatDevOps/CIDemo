@@ -3,7 +3,7 @@
 		<sag:title>Array Processing Tips</sag:title>
 		<sag:score>100%</sag:score>
 		<sag:keywords>naturalone test qe</sag:keywords>
-		<sag:link>ArrayProcessingTips/index.txt</sag:link>
+		<sag:link>/NatDevOps/CIDemo/master/ArrayProcessingTips/index.txt</sag:link>
 		<sag:excerpt><![CDATA[<p> It may not be necessary to code an explicit loop, such as FOR or REPEAT, to process an array.</p>
 <p> Here are simple methods to</p>
 <ul>
@@ -18,7 +18,7 @@
 		<sag:title>Test title 1</sag:title>
 		<sag:score>100%</sag:score>
 		<sag:keywords>naturalone test qe</sag:keywords>
-		<sag:link>Checksum/index.txt</sag:link>
+		<sag:link>/NatDevOps/CIDemo/master/Checksum/index.txt</sag:link>
 		<sag:excerpt><![CDATA[Determine whether two files are identical - across databases and platforms.]]></sag:excerpt>
 		<sag:description><![CDATA[<p> This program determines whether the contents of two Adabas files are identical.&nbsp; The files may reside in the same database or separate databases.&nbsp; The databases may be on different hardware platforms (ie mainframe vs Windows vs Unix/Linux).</p> <p> In-stream comments are provided for customization.</p> <p> Despite the use of user exit USR4011N to compute the actual checksum values, this program can be quite CPU-intensive.&nbsp; When comparing mainframe vs Windows files, I run the program on the Windows platform utilizing the Net-Work product to communicate with mainframe Adabas.&nbsp; Use of desktop CPU units is more palatable than using mainframe CPU.</p>]]></sag:description>
 		<sag:last-modified>Fri Nov 12 09:22:33 CET 2022</sag:last-modified>
