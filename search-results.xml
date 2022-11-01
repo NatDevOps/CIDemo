@@ -1,0 +1,44 @@
+<sag:search-results status="OK" pagecount="1" page="0" index-id="nat-codesamples" index="Natural Code Samples" query="request" fields="content;title;teaser;intro;footer;details;description;" sort-order="score" matches="25" fetched-results="12" xmlns:sag="http://communities.softwareag.com/main">
+	<sag:item index="0">
+		<sag:title>Array Processing Tips</sag:title>
+		<sag:score>100%</sag:score>
+		<sag:keywords>naturalone test qe</sag:keywords>
+		<sag:link>https://softwareag-usa.s3.amazonaws.com/Content/codesamples/adanat/natural/Array+Processing+Tips/index.txt</sag:link>
+		<sag:excerpt><![CDATA[<p> It may not be necessary to code an explicit loop, such as FOR or REPEAT, to process an array.</p>
+<p> Here are simple methods to</p>
+<ul>
+<li> shift elements to the left (pop-up)</li>
+<li> shift elements to the right (push down)</li>
+<li> sum a set of elements</li>
+</ul>]]></sag:excerpt>
+		<sag:description><![CDATA[ <p> <strong>Program 1 - Shift left/up</strong><br /> Shifting up requires a single ASSIGN.</p> <p> <strong>Program 2 - Shift right/down</strong><br /> Shifting down requires a temporary duplicate array and two ASSIGNs.</p> <p> <strong>Program 3 - Sum</strong><br /> Invariably a FOR loop is used to sum the contents of an array, as in Program 3a, but a single computation can determine the sum of all (or a range of) array elements, as in Program 3b.<br /> <br /> <strong>Program 4 - Display</strong><br /> DISPLAY places the elements of an array on individual lines.&nbsp; No explicit loop is needed.&nbsp; See Program 4a.</p> <p> A loop is not necessary to exclude empty array elements from the report.&nbsp; The DISPLAY statement can be told to ignore them, as in Program 4b.&nbsp; This is especially helpful when an array is defined with many occurrences, but few are populated, because we get a more condensed report.</p>]]></sag:description>
+		<sag:last-modified>Fri Nov 12 09:00:00 CET 2022</sag:last-modified>
+	</sag:item>
+	<sag:item index="1">
+		<sag:title>Test title 1</sag:title>
+		<sag:score>100%</sag:score>
+		<sag:keywords>naturalone test qe</sag:keywords>
+		<sag:link>https://softwareag-usa.s3.amazonaws.com/Content/codesamples/adanat/natural/Checksum/index.txt</sag:link>
+		<sag:excerpt><![CDATA[Determine whether two files are identical - across databases and platforms.]]></sag:excerpt>
+		<sag:description><![CDATA[<p> This program determines whether the contents of two Adabas files are identical.&nbsp; The files may reside in the same database or separate databases.&nbsp; The databases may be on different hardware platforms (ie mainframe vs Windows vs Unix/Linux).</p> <p> In-stream comments are provided for customization.</p> <p> Despite the use of user exit USR4011N to compute the actual checksum values, this program can be quite CPU-intensive.&nbsp; When comparing mainframe vs Windows files, I run the program on the Windows platform utilizing the Net-Work product to communicate with mainframe Adabas.&nbsp; Use of desktop CPU units is more palatable than using mainframe CPU.</p>]]></sag:description>
+		<sag:last-modified>Fri Nov 12 09:22:33 CET 2022</sag:last-modified>
+	</sag:item>
+	<sag:item index="2">
+		<sag:title>Checksum</sag:title>
+		<sag:score>100%</sag:score>
+		<sag:keywords>naturalone test qe</sag:keywords>
+		<sag:link>/snippet/test2.txt</sag:link>		
+		<sag:excerpt><![CDATA[QE test 1]]></sag:excerpt>
+		<sag:description><![CDATA[Description for test 1]]></sag:description>
+		<sag:last-modified>Fri Nov 12 09:22:33 CET 2022</sag:last-modified>
+	</sag:item>
+	<sag:item index="3">
+		<sag:title>Test title 3</sag:title>
+		<sag:score>100%</sag:score>
+		<sag:keywords>naturalone test qe</sag:keywords>
+		<sag:link>/snippet/test3.txt</sag:link>
+		<sag:excerpt><![CDATA[QE test 3]]></sag:excerpt>
+		<sag:description><![CDATA[Description for test 3]]></sag:description>
+		<sag:last-modified>Fri Nov 12 09:22:33 CET 2010</sag:last-modified>
+	</sag:item>
+</sag:search-results>
